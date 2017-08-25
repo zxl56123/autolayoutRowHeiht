@@ -29,7 +29,7 @@
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bCG-hs-6Ck">
                         <rect key="frame" x="106" y="8" width="241" height="21"/>
                         <constraints>
-                            <constraint firstAttribute="height" constant="21" id="nq0-Ub-F3Z"/>
+                            <constraint firstAttribute="height" constant="21" id="IRK-hP-liF"/>
                         </constraints>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                         <nil key="textColor"/>
@@ -43,15 +43,15 @@
                     </label>
                 </subviews>
                 <constraints>
-                    <constraint firstItem="aWo-bt-27x" firstAttribute="leading" secondItem="90x-NK-wMk" secondAttribute="trailing" constant="8" id="5NZ-vG-IUU"/>
-                    <constraint firstItem="bCG-hs-6Ck" firstAttribute="trailing" secondItem="ykk-of-kw5" secondAttribute="trailingMargin" constant="-20" id="EUe-c9-q0j"/>
-                    <constraint firstItem="bCG-hs-6Ck" firstAttribute="leading" secondItem="90x-NK-wMk" secondAttribute="trailing" constant="8" id="R4s-b2-Gf8"/>
+                    <constraint firstItem="bCG-hs-6Ck" firstAttribute="leading" secondItem="90x-NK-wMk" secondAttribute="trailing" constant="8" id="0aN-Ph-xDL"/>
+                    <constraint firstItem="aWo-bt-27x" firstAttribute="bottom" secondItem="ykk-of-kw5" secondAttribute="bottomMargin" id="K1v-h4-6mo"/>
+                    <constraint firstItem="aWo-bt-27x" firstAttribute="top" secondItem="bCG-hs-6Ck" secondAttribute="bottom" constant="16" id="QRm-eW-mAr"/>
                     <constraint firstItem="90x-NK-wMk" firstAttribute="top" secondItem="ykk-of-kw5" secondAttribute="topMargin" id="T3d-BU-8DV"/>
-                    <constraint firstItem="aWo-bt-27x" firstAttribute="bottom" secondItem="ykk-of-kw5" secondAttribute="bottomMargin" id="UdL-Gk-Aii"/>
-                    <constraint firstAttribute="trailingMargin" secondItem="aWo-bt-27x" secondAttribute="trailing" constant="20" id="WXP-10-3DN"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="bCG-hs-6Ck" secondAttribute="trailing" constant="20" id="YU1-mu-Tc9"/>
                     <constraint firstItem="90x-NK-wMk" firstAttribute="leading" secondItem="ykk-of-kw5" secondAttribute="leadingMargin" id="cFe-C8-RXw"/>
-                    <constraint firstItem="bCG-hs-6Ck" firstAttribute="top" secondItem="90x-NK-wMk" secondAttribute="top" id="iDp-aI-bjr"/>
-                    <constraint firstItem="aWo-bt-27x" firstAttribute="top" secondItem="bCG-hs-6Ck" secondAttribute="bottom" constant="16" id="n2P-sc-wPQ"/>
+                    <constraint firstItem="aWo-bt-27x" firstAttribute="leading" secondItem="90x-NK-wMk" secondAttribute="trailing" constant="8" id="kAz-ib-nPv"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="aWo-bt-27x" secondAttribute="trailing" constant="20" id="ohk-sX-EJg"/>
+                    <constraint firstItem="bCG-hs-6Ck" firstAttribute="top" secondItem="ykk-of-kw5" secondAttribute="topMargin" id="wgO-vE-D4E"/>
                 </constraints>
             </tableViewCellContentView>
             <connections>

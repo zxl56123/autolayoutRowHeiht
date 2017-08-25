@@ -39,8 +39,6 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         
         cell.setCell(imageStr, title: imageStr, subTitle: self.getCellSubTitle(index: indexPath.row) )
         
-        cell.layoutIfNeeded()
-        
         return cell
     }
     
